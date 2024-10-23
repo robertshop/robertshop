@@ -1,0 +1,81 @@
+---
+import '../styles/main.css'
+import { ViewTransitions } from 'astro:transitions';
+import { fade,slide } from 'astro:transitions';
+
+
+export interface TransitionAnimation {
+  name: string; // The name of the keyframe
+  delay?: number | string;
+  duration?: number | string;
+  easing?: string;
+  fillMode?: string;
+  direction?: string;
+}
+
+const heading = " Where Every Message Brings Us Closer!";
+const subheading = "Connect with a friend ";
+const appIcon = "/images/chat-bubble.png";
+const appScreenshot = "/images/phone.png";
+const footerImage = "/images/banners3.png";
+const badges = [
+	{
+		link: "https://dw474l86cf6h8.cloudfront.net/app/#/room/%23welcome%3Akeanu.im",
+		image: "/images/chat-button.svg"
+	},
+
+];
+const authors = [
+	{
+		name: "Will Walker",
+		url: "https://willswire.com"
+	},
+	{
+		name: "Caden Kulp",
+		url: "https://cadens.studio"
+	},
+];
+const pageTitle = "App Showcase"
+const favicon = "/images/chat-bubble.png"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href={favicon} />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+		<ViewTransitions />
+
+	</head>
+	<body>
+		<div class="container">
+			<main>
+				<div class="text-container">
+					<img src={appIcon} class="app-icon">
+					<h1 class="heading" transition:animate="slide">{heading}</h1>
+					<h2 class="subheading">{subheading}</h2>
+					<div class="badge-container">
+						{badges.map(badge => (
+							<div>
+								<a href={badge.link} target="_blank">
+									<img src={badge.image} class="badge" />
+								</a>
+							</div>
+						))}
+					</div>
+					
+				</div>
+				<div>
+					<img src={appScreenshot} class="app-screenshot" transition:animate={fade({ duration: '0.4s' })}>
+				</div>
+			</main>
+			
+			<footer>
+				<img src={footerImage} class="footer-image">
+			</footer>
+			
+		</div>
+	</body>
+</html>

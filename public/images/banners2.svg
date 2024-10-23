@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 322.6">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #62b8e9;
+      }
+
+      .st0, .st1, .st2 {
+        fill-rule: evenodd;
+      }
+
+      .st1 {
+        fill: #85c8dd;
+      }
+
+      .st3 {
+        fill: #ffd6b6;
+      }
+
+      .st4 {
+        fill: url(#radial-gradient);
+      }
+
+      .st5 {
+        fill: #83d1ce;
+      }
+
+      .st6 {
+        fill: #bbe1ec;
+      }
+
+      .st7 {
+        fill: #eb4b63;
+      }
+
+      .st2 {
+        fill: #36a3c4;
+      }
+
+      .st8 {
+        fill: #ef742e;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="62.3" cy="-327.2" fx="62.3" fy="-327.2" r="508" gradientTransform="translate(903.2 145.8) scale(.6 -.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity=".6"/>
+      <stop offset=".6" stop-color="#000" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect class="st3" x="1580" y="25.8" width="600" height="337.5" rx="31.3" ry="31.3" transform="translate(2.1 408.4) rotate(-12.4)"/>
+  <rect class="st5" x="1201.6" y="-104.2" width="337.5" height="600" rx="31.3" ry="31.3" transform="translate(1150.5 1562.4) rotate(-89)"/>
+  <g>
+    <rect class="st7" x="654.3" y="68.7" width="576.2" height="324.1" rx="30" ry="30" transform="translate(-17.2 87.5) rotate(-5.3)"/>
+    <rect class="st4" x="642.4" y="62" width="600" height="337.5" rx="31.3" ry="31.3" transform="translate(-17.2 87.5) rotate(-5.3)"/>
+  </g>
+  <g>
+    <rect class="st6" x="293.2" y="-93.6" width="337.5" height="600" rx="31.3" ry="31.3" transform="translate(205.7 642.7) rotate(-83.6)"/>
+    <path class="st1" d="M312.8,36.7c-49.6-5.5-99.3,8.8-138.3,39.9l-26,233.3c-1.9,17.2,10.4,32.6,27.6,34.5h.2c-10.4-27.7-14.2-57.4-11-86.8,11.5-103.4,104.7-178,208.1-166.4h0c25.2,2.8,49.7,10.7,71.8,23.2-31.1-43.5-79.3-71.8-132.4-77.7Z"/>
+    <path class="st0" d="M373.4,91.1c-103.4-11.5-196.6,63-208.1,166.4h0c-3.1,29.4.7,59.2,11.2,86.9l66.4,7.4c-6.4-23.1-8.4-47.2-5.8-71.1,11.5-103.4,104.7-177.9,208.1-166.5-22.1-12.5-46.5-20.4-71.7-23.2h0Z"/>
+    <path class="st2" d="M433,113.2c-48.4-3.1-96.1,12.6-133.2,43.7-37.1,31.1-60.9,75.3-66.3,123.5-2.5,23.9-.3,48,6.3,71.1l470.5,52.4c17.2,1.9,32.6-10.4,34.5-27.6l5.5-49.8s-52.8-22.1-128.4-30.5c-29.1-3.5-61.8-4.9-96.3-2.3-87.5,6.6-126,4.9-140.9,3.4-3.2-.4-4.6-.7-4.6-.7-39.3-4.4-67.7-39.7-63.4-79.1v-.2c3.2-29.1,17.4-56,39.6-75.1,22.2-19.1,50.8-29.3,80.1-28.3-3.7-.2-7.5-.4-11.2-.4,2.6,0,5.1-.1,7.7,0h0Z"/>
+    <path class="st0" d="M373.4,91.1c-103.4-11.5-196.6,63-208.1,166.4h0c-3.1,29.4.7,59.2,11.2,86.9l66.4,7.4c-6.4-23.1-8.4-47.2-5.8-71.1,11.5-103.4,104.7-177.9,208.1-166.5-22.1-12.5-46.5-20.4-71.7-23.2h0Z"/>
+    <path class="st0" d="M373.4,91.1c-103.4-11.5-196.6,63-208.1,166.4h0c-3.1,29.4.7,59.2,11.2,86.9l66.4,7.4c-6.4-23.1-8.4-47.2-5.8-71.1,11.5-103.4,104.7-177.9,208.1-166.5-22.1-12.5-46.5-20.4-71.7-23.2h0Z"/>
+    <path class="st0" d="M373.4,91.1c-103.4-11.5-196.6,63-208.1,166.4h0c-3.1,29.4.7,59.2,11.2,86.9l66.4,7.4c-6.4-23.1-8.4-47.2-5.8-71.1,11.5-103.4,104.7-177.9,208.1-166.5-22.1-12.5-46.5-20.4-71.7-23.2h0Z"/>
+    <path class="st0" d="M373.4,91.1c-103.4-11.5-196.6,63-208.1,166.4h0c-3.1,29.4.7,59.2,11.2,86.9l66.4,7.4c-6.4-23.1-8.4-47.2-5.8-71.1,11.5-103.4,104.7-177.9,208.1-166.5-22.1-12.5-46.5-20.4-71.7-23.2h0Z"/>
+  </g>
+  <rect class="st8" x="-208.7" y="48.2" width="600" height="337.5" rx="31.3" ry="31.3" transform="translate(-36 19) rotate(-9.9)"/>
+  <image width="660" height="660" transform="translate(786.8 -104.1) scale(.6)" xlink:href="../../../../../../Downloads/pngwing.com (3).png"/>
+  <image width="1200" height="1200" transform="translate(-183.1 -176.8) scale(.5)" xlink:href="../../../../../../Downloads/pngegg (4).png"/>
+  <image width="820" height="550" transform="translate(1315.6 -108.1) rotate(26.4) scale(.5)" xlink:href="../../../../../../Downloads/10601-Highlands-Sleeping-Bag-Huckleberry-Blue-Stuff-Sack-Compressed-Medium.webp"/>
+  <image width="883" height="3000" transform="translate(1685.9 -38.1) rotate(-36.4) scale(.2)" xlink:href="../../../../../../Downloads/pngegg (5).png"/>
+  <image width="457" height="640" transform="translate(424 -57.3) scale(.6)" xlink:href="../../../../../../Downloads/pngwing.com (2).png"/>
+  <image width="800" height="800" transform="translate(1697.4 -6.9) scale(.4)" xlink:href="../../../../../../Downloads/6-2-gloves-png-pic_800x800.png"/>
+</svg>

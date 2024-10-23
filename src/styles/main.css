@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Titan One';
+  font-style: regular;
+  font-weight: 400;
+  src: url('/fonts/Titan_One_regular.woff2') format('woff2');
+}
+
+:root {
+  --accent: #FF9305;
+  --secondary: #8e8e93;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  transition:.3s
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto, Noto Sans, Helvetica Neue;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  background-color: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 35%);
+  background-image:url('/images/background2.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 200;
+  margin-bottom: .1em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 0;
+}
+
+main {
+  margin: auto 0;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.text-container {
+  width: 60%;
+}
+.app-icon {
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 20px;
+  position: relative;
+  animation: chaticon 1s infinite ease-out;
+}
+
+.heading {
+  font-family: 'Titan One', sans-serif;
+  color: white;
+  margin-bottom: 16px;
+  padding: 0px 0px 0px 20px;
+}
+
+.subheading {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  padding: 0px 0px 0px 20px;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.badge {
+  margin-bottom: 20px;
+  height: 50px;
+  padding: 0px 0px 0px 20px;
+  transition-timing-function: ease;
+}
+.badge:hover {
+  cursor: pointer;
+  transform:translateY(-5px);
+  
+}
+
+.authors {
+  font-weight: 300;
+}
+
+.authors a {
+  color: inherit;
+  font-weight: 500;
+  text-decoration: none;
+}
+.authors a:hover {
+  text-decoration: underline;
+}
+
+.app-screenshot {
+  width: 320px;
+  
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.footer-image {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  
+  position: relative;
+  
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    gap:10px
+   
+  }
+  .text-container {
+    width: 100%;
+  }
+  footer{
+    width:100%;
+    position:relative;
+    background:red
+  }
+  .footer-image {
+    bottom:0px;
+    position:fixed;
+    left:0px;
+  }
+  .app-screenshot {
+    width: 220px;
+    
+  }
+}
+
+
+
+@keyframes chaticon {
+  0% {top: 0px;}
+  45% {top: -5px;}
+  100% {top: 0px;}
+}
