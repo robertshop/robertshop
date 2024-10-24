@@ -20,8 +20,15 @@ const appScreenshot = "/images/phone.png";
 const footerImage = "/images/banners3.png";
 const badges = [
 	{
-		link: "https://dw474l86cf6h8.cloudfront.net/app/#/room/%23welcome%3Akeanu.im",
+		link: " https://dw474l86cf6h8.cloudfront.net/app/#/room/%23friends%26family%3Akeanu.im",
 		image: "/images/chat-button.svg"
+	},
+
+];
+const badges2 = [
+	{
+		link: "https://dw474l86cf6h8.cloudfront.net/app/#/room/%23welcome%3Akeanu.im",
+		image: "/images/chat-button-friend.svg"
 	},
 
 ];
@@ -47,6 +54,15 @@ const favicon = "/images/chat-bubble.png"
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 		<ViewTransitions />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-THKEK17EZ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-THKEK17EZ3');
+</script>
 
 	</head>
 	<body>
@@ -65,7 +81,15 @@ const favicon = "/images/chat-bubble.png"
 							</div>
 						))}
 					</div>
-					
+					<div class="badge-container">
+						{badges2.map(badge => (
+							<div>
+								<a href={badge.link} target="_blank">
+									<img src={badge.image} class="badge" />
+								</a>
+							</div>
+						))}
+					</div>	
 				</div>
 				<div>
 					<img src={appScreenshot} class="app-screenshot" transition:animate={fade({ duration: '0.4s' })}>
