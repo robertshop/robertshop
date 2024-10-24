@@ -101,6 +101,7 @@ main {
   height: 50px;
   padding: 0px 0px 0px 20px;
   transition-timing-function: ease;
+  
 }
 .badge:hover {
   cursor: pointer;
@@ -122,8 +123,12 @@ main {
 }
 
 .app-screenshot {
-  width: 320px;
+  width: 420px;
   
+}
+.app-screenshot-desktop {
+  display: none;
+  width: 300px;
 }
 
 footer {
@@ -163,7 +168,22 @@ footer {
   }
   .app-screenshot {
     width: 220px;
-    
+    display: none;
+  }
+  .app-screenshot-desktop{
+    display: block;
+  }
+  .badge-container{
+    width:100%;
+    display: flex;
+  justify-content: center;
+  }
+  .badge div{
+    width:100%;
+    margin:10px auto;
+  }
+  .heading{
+    font-size: 2em;
   }
 }
 

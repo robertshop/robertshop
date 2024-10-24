@@ -13,11 +13,11 @@ export interface TransitionAnimation {
   direction?: string;
 }
 
-const heading = " Where Every Message Brings Us Closer!";
-const subheading = "Connect with a friend ";
+const heading = "Connect with a Friend' to 'Explore, Have Fun, and Dive into Adventure!";
+const subheading = "Live Your Life!";
 const appIcon = "/images/chat-bubble.png";
-const appScreenshot = "/images/phone.png";
-const footerImage = "/images/banners3.png";
+const appScreenshot = "/images/globe.png";
+const footerImage = "/images/footer.png";
 const badges = [
 	{
 		link: " https://dw474l86cf6h8.cloudfront.net/app/#/room/%23friends%26family%3Akeanu.im",
@@ -34,16 +34,13 @@ const badges2 = [
 ];
 const authors = [
 	{
-		name: "Will Walker",
-		url: "https://willswire.com"
+		name: "Robert",
+		url: "https://robertshops.com/"
 	},
-	{
-		name: "Caden Kulp",
-		url: "https://cadens.studio"
-	},
+
 ];
-const pageTitle = "App Showcase"
-const favicon = "/images/chat-bubble.png"
+const pageTitle = "Travel"
+const favicon = "/images/compas-icon.svg"
 ---
 
 <html lang="en">
@@ -72,6 +69,7 @@ const favicon = "/images/chat-bubble.png"
 					<img src={appIcon} class="app-icon">
 					<h1 class="heading" transition:animate="slide">{heading}</h1>
 					<h2 class="subheading">{subheading}</h2>
+					<center><img src={appScreenshot} class="app-screenshot-desktop" transition:animate={fade({ duration: '0.4s' })}></center>
 					<div class="badge-container">
 						{badges.map(badge => (
 							<div>

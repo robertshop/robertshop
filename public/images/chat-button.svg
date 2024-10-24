@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 644 146">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 567.5 146">
   <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
   <defs>
     <style>
-      .st0, .st1 {
+      .st0, .st1, .st2 {
         isolation: isolate;
       }
 
-      .st2 {
-        fill: #2ecc71;
-      }
-
-      .st1, .st3 {
+      .st0, .st2 {
         font-family: Arial-BoldMT, Arial;
         font-size: 64.3px;
         font-weight: 700;
       }
 
-      .st1, .st4 {
+      .st0, .st3 {
         fill: #26ad60;
       }
 
-      .st3 {
+      .st2 {
         fill: #fff;
+      }
+
+      .st4 {
+        fill: #2ecc71;
       }
     </style>
   </defs>
   <g>
-    <rect class="st4" x="1" y="15" width="643" height="131" rx="51" ry="51"/>
-    <rect class="st2" y="0" width="643" height="131" rx="51" ry="51"/>
+    <path class="st3" d="M45.8,15h476.8c24.8,0,44.9,22.8,44.9,51v29c0,28.2-20.1,51-44.9,51H45.8C21,146,.9,123.2.9,95v-29C.9,37.8,21,15,45.8,15Z"/>
+    <path class="st4" d="M44.9,0h476.8c24.8,0,44.9,22.8,44.9,51v29c0,28.2-20.1,51-44.9,51H44.9C20.1,131,0,108.2,0,80v-29C0,22.8,20.1,0,44.9,0Z"/>
   </g>
   <g>
-    <g class="st0">
-      <text class="st1" transform="translate(51.6 95.1)"><tspan x="0" y="0">JOIN THE GROUP</tspan></text>
+    <g class="st1">
+      <g class="st1">
+        <text class="st0" transform="translate(51.6 95.1)"><tspan x="0" y="0">JOIN A GROUP</tspan></text>
+      </g>
     </g>
-    <g class="st0">
-      <text class="st3" transform="translate(51.6 92.2)"><tspan x="0" y="0">JOIN THE GROUP</tspan></text>
+    <g class="st1">
+      <g class="st1">
+        <text class="st2" transform="translate(51.6 92.2)"><tspan x="0" y="0">JOIN A GROUP</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
